@@ -24,7 +24,7 @@ app.post('/analyze', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public/index.html'));
+    res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 app.listen(3000, () => {
